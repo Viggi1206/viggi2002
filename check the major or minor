@@ -1,0 +1,24 @@
+# Write a python function to check major or minor age.
+
+# Algorithm:
+# 1.Create the function,function name and age is a parameter.
+# 2.age value above 0 to below 100.
+# 3.Check the condition age value above 18 age is major.
+# 4.Check the condition age value below 18 age is minor.
+# 5.Check the user_age value in integer.
+# 6.Call the function and finish the code.
+
+# Create the function and use 'def'.
+def to_check_major_or_minor(age):
+# Check the condition 
+    if (age > 0) and  (age <= 100):
+        if age >= 18:
+            print(age,"is a major age.")
+        else:
+            print(age,"is a minor age")
+    else:
+        print(age,"is a invalid age") 
+#one answers are required 
+user_age = int(input("Enter the age: "))
+# call the function
+check_major_or_minor(age = user_age)
